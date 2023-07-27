@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-weight: 600;
+}
+.main{
+    box-shadow: 0 0 5px black;
+    width: 25vw;
+    height: 18vh;
+    text-align: center;
+}
+
+#display{
+    border: solid black;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* position: relative;
+    top: 30px; */
+}
+
+#decrement{
+    /* padding: 5px; */
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#increment{
+    /* padding: 5px; */
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#reset{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
